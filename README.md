@@ -1,12 +1,14 @@
+# TRELLO drone control with Clojure
 
 
+## todo once for a new drone
 
-connect to wifi TELLO-xxxxxx
 
- Set up a UDP server on PC, Mac or Mobile device and listen the message from
-IP 0.0.0.0 via UDP PORT 8890. Do Remark2 to start receiving state data if you haven’t.
+Tello needs to be "activated" before it can fly. You need the stock app, or TelloFpv (free demo is good enough). 
 
-If Tello does not receive any command input for 15 seconds, it will land automatically.
+## connect to drone wifi
 
-Brand new drone never flown before?
-Tello needs to be "activated" before it can fly. You need the stock app, or TelloFpv (free demo is good enough). I don't think any other 3rd party app can activate.
+- press button of the drone, lights will flash
+- on PC connect to wifi TELLO-xxxxxx
+
+ 
